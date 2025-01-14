@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Builder</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="proxy-builder">
+        <div class="form-sections">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-sections">
+            <label for="proxy-name">Proxy Name:</label>
+            <input type="text" id="proxy-name" name="proxy-name">
+        </div>
+        <div class="form-sections">
+            <label for="system">System:</label>
+            <select id="system" name="system">
+                <option value="">Systemless</option>
+                <option value="[AERΘ]">Frutiger Aero</option>
+                <option value="[SCΣNΣ]">Scene</option>
+                <option value="[SΥNΓH]">Synthwave</option>
+            </select>
+        </div>
+        <div class="form-sections">
+            <label for="species1">Species:</label>
+            <div class="selector">
+                <select id="species1" name="species1">
+                    <option value="">Human</option>
+                    <option value="🤖">Android</option>
+                    <option value="😇">Angel</option>
+                    <option value="🐦">Bird</option>
+                    <option value="🐇">Bunny</option>
+                    <option value="🐱">Cat</option>
+                    <option value="👿">Devil/Demon</option>
+                    <option value="🐶">Dog</option>
+                    <option value="🐉">Dragon</option>
+                    <option value="🧝‍♀️">Elf</option>
+                    <option value="🪐">Extraterrestrial</option>
+                    <option value="🐟">Fish</option>
+                    <option value="🦊">Fox</option>
+                    <option value="🔫">Gungirl</option>
+                    <option value="🦈">Shark</option>
+                    <option value="⚓">Shipgirl</option>
+                    <option value="🧛‍♀️">Vampire</option>
+                    <option value="🐋">Whale</option>
+                    <option value="🐺">Wolf</option>
+                </select>
+                <select id="species2" name="species2">
+                    <option value="">No extra species</option>
+                    <option value="🤖">Android</option>
+                    <option value="😇">Angel</option>
+                    <option value="🐦">Bird</option>
+                    <option value="🐇">Bunny</option>
+                    <option value="🐱">Cat</option>
+                    <option value="👿">Devil/Demon</option>
+                    <option value="🐶">Dog</option>
+                    <option value="🐉">Dragon</option>
+                    <option value="🧝‍♀️">Elf</option>
+                    <option value="🪐">Extraterrestrial</option>
+                    <option value="🐟">Fish</option>
+                    <option value="🦊">Fox</option>
+                    <option value="🔫">Gungirl</option>
+                    <option value="🦈">Shark</option>
+                    <option value="⚓">Shipgirl</option>
+                    <option value="🧛‍♀️">Vampire</option>
+                    <option value="🐋">Whale</option>
+                    <option value="🐺">Wolf</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-sections">
+            <label for="nationality1">Nationality:</label>
+            <div class="selector">
+                <select id="nationality1" name="nationality1">
+                    <option value="">None/Not Earthly</option>
+                    <option value="🇦🇺">Autralian</option>
+                    <option value="🇺🇸">American</option>
+                    <option value="🇬🇧">British</option>
+                    <option value="🇨🇦">Canadian</option>
+                    <option value="🇨🇳">Chinese</option>
+                    <option value="🇳🇱">Dutch</option>
+                    <option value="🇫🇷">French</option>
+                    <option value="🇩🇪">German</option>
+                    <option value="🇭🇰">Hong Kong</option>
+                    <option value="🇮🇩">Indonesian</option>
+                    <option value="🇮🇹">Italian</option>
+                    <option value="🇯🇵">Japanese</option>
+                    <option value="🇲🇾">Malaysian</option>
+                    <option value="🇲🇽">Mexican</option>
+                    <option value="🇵🇱">Philipino</option>
+                    <option value="🇵🇱">Poland</option>
+                    <option value="🇵🇷">Puerto-Rican</option>
+                    <option value="🇷🇴">Romanian</option>
+                    <option value="🇷🇺">Russian</option>
+                    <option value="🇰🇷">South-Korean</option>
+                    <option value="🇸🇪">Swedish</option>
+                    <option value="🇹🇭">Thai</option>
+                    <option value="🇺🇦">Ukrainian</option>
+                    <option value="🇻🇳">Vietnamese</option>
+                </select>
+                <select id="nationality2" name="nationality2">
+                    <option value="">None/Not Earthly</option>
+                    <option value="🇦🇺">Autralian</option>
+                    <option value="🇺🇸">American</option>
+                    <option value="🇬🇧">British</option>
+                    <option value="🇨🇦">Canadian</option>
+                    <option value="🇨🇳">Chinese</option>
+                    <option value="🇳🇱">Dutch</option>
+                    <option value="🇫🇷">French</option>
+                    <option value="🇩🇪">German</option>
+                    <option value="🇭🇰">Hong Kong</option>
+                    <option value="🇮🇩">Indonesian</option>
+                    <option value="🇮🇹">Italian</option>
+                    <option value="🇯🇵">Japanese</option>
+                    <option value="🇲🇾">Malaysian</option>
+                    <option value="🇲🇽">Mexican</option>
+                    <option value="🇵🇱">Philipino</option>
+                    <option value="🇵🇱">Poland</option>
+                    <option value="🇵🇷">Puerto-Rican</option>
+                    <option value="🇷🇴">Romanian</option>
+                    <option value="🇷🇺">Russian</option>
+                    <option value="🇰🇷">South-Korean</option>
+                    <option value="🇸🇪">Swedish</option>
+                    <option value="🇹🇭">Thai</option>
+                    <option value="🇺🇦">Ukrainian</option>
+                    <option value="🇻🇳">Vietnamese</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-sections">
+            <label for="pronouns">Pronouns:</label>
+            <input type="text" id="pronouns" name="pronouns">
+        </div>
+        <div class="form-sections">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div class="form-sections">
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+        </div>
+        <div class="form-sections">
+            <label for="full-name">Full name:</label>
+            <input type="text" id="full-name" name="full-name">
+        </div>
+        <div class="form-sections">
+            <label for="source">Source:</label>
+            <input type="text" id="source" name="source">
+        </div>
+        <div class="form-sections">
+            <label for="zodiac">Zodiac:</label>
+            <select id="zodiac" name="zodiac">
+                <option value="">Choose a zodiac...</option>
+                <option value="♑">12/22 - 1/19</option>
+                <option value="♒">1/20 - 2/18</option>
+                <option value="♓">2/19 - 3/20</option>
+                <option value="♈">3/21 - 4/19</option>
+                <option value="♉">4/20 - 5/20</option>
+                <option value="♊">5/21 - 6/21</option>
+                <option value="♋">6/22 - 7/22</option>
+                <option value="♌">7/23 - 8/22</option>
+                <option value="♍">8/23 - 9/22</option>
+                <option value="♎">9/23 - 10/22</option>
+                <option value="♏">10/23 - 11/21</option>
+                <option value="♐">11/22 - 12/21</option>
+            </select>
+        </div>
+        <div class="form-sections">
+            <label for="proxies">Proxies left:</label>
+            <div class="selector">
+                <input type="text" id="proxies" name="proxies" placeholder="376">
+                <p>-</p>
+                <input type="text" id="proxies-done" name="proxies-done">
+            </div>
+        </div>
+        <input type="button" class="save" value="Save" onclick="saveTextAsFile()">
+    </form>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
