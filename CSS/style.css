@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form-sections {
+    display: flex;
+    padding: 10px;
+}
+
+label {
+    flex: 1;
+}
+
+.form-sections div {
+    flex: 2;
+}
+
+.form-sections input {
+    flex: 2;
+}
+
+.selector {
+    display: flex;
+    gap: 20px;
+}
+
+.selector p {
+    flex: 1;
+    padding: 5px;
+    margin: 0;
+}
+.selector select {
+    flex: 2;
+    padding: 5px;
+}
+
+select {
+    flex: 2;
+    padding: 5px;
+}
+
+.save {
+    width: 20%;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    #proxy-builder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .form-sections {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .selector {
+        width: 90%;
+    }
+
+    .save {
+        width: 90%;
+        height: 64px;
+    }
+}
