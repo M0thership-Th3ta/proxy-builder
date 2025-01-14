@@ -22,7 +22,7 @@ function saveTextAsFile() {
     let printedContent = `${name}\n${proxyName} ${systemTag} |${speciesOne}${speciesTwo}${nationalityOne}${nationalityTwo}|\n${pronouns}\n${birthday}\n${color}\n${name}.\n\n《  ${fullName.toUpperCase()}  》\n\n☆ ${source.toUpperCase()} ☆\n\n☆★☆★☆★☆★☆★☆★☆★☆★☆\n\nEuphorias :: \nDiscomforts :: \nFront Triggers :: \nNegative Triggers :: \n\n☆★☆★☆★☆★☆★☆★☆★☆★☆\n\nBirthday :: \nGender :: \nZodiac Sign :: ${zodiac}\nSexual Orientation :: \nRomantic Orientation :: \nVibe Song ::\n\nProxies Left: ${proxiesLeft}\nVtuber Proxies Left: ${vtuberProxies.length}\nShipgirl Proxies Left: ${shipgirlProxies.length}\nNikke Proxies Left: ${nikkeProxies.length}\n\n${vtuberProxies[proxiesToDo]}`;
     let textToSaveAsBlob = new Blob([printedContent], { type: "text/plain" });
     let textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    let fileNameToSaveAs = "proxy.docx";
+    let fileNameToSaveAs = "proxy.txt";
     let downloadLink = document.createElement("a");
     downloadLink.download = fileNameToSaveAs;
     downloadLink.innerHTML = "Download File";
